@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransaccionTarjetaCredito>
+    <InformacionTransaccion>
+        <SistemaOrigen>BAC</SistemaOrigen>
+        <UbicacionSistemaOrigen>Guatemala</UbicacionSistemaOrigen>
+        <SistemaDestino>PROMERICA</SistemaDestino>
+        <UbicacionSistemaDestino>Peten</UbicacionSistemaDestino>
+        <FechaHora>2022-11-23T15:30:00</FechaHora>
+        <IDTransaccion>123456789</IDTransaccion>
+    </InformacionTransaccion>
+    <TitularTarjeta>
+        <IDCliente>12345</IDCliente>
+        <Nombre>Juan Herrera</Nombre>
+        <Facturacion>
+            <Direccion>Zona 10</Direccion>
+            <Ciudad>Guatemala</Ciudad>
+        </Facturacion>
+    </TitularTarjeta>
+    <InformacionTarjeta>
+        <NumeroTarjeta>1234 5678 1234 5678</NumeroTarjeta>
+        <FechaExpiracion>10/25</FechaExpiracion>
+        <CodigoSeguridad>123</CodigoSeguridad>
+        <NombreTitularTarjeta>Juan Herrera</NombreTitularTarjeta>
+    </InformacionTarjeta>
+    <ValorTransaccion>
+        <Moneda>QGT</Moneda>
+        <Monto>123.12</Monto>
+    </ValorTransaccion>
+</TransaccionTarjetaCredito>
